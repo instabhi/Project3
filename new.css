@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
+   
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("ccd.png");
+    background-size:cover ;
+    background-attachment: fixed;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    gap: 63px;
+  align-items: center;
+  list-style: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffc233;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+li,.logo{
+    cursor: pointer;
+}
+.logo img{
+    height: 30px;
+   
+}
+.buttn{
+    padding: 10px 25px;
+    color: white;
+    background-color: rgb(179, 42, 88);
+    border: none;
+    margin-top: 10px;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffc233;
+    font-size: 50px;
+    height: 65vh;
+    line-height: 83px;
+    margin-top: 50px;
+}
+.mid{
+    margin-left: 120px;
+}
+.del{
+    margin-left: 80px; 
+}
+.bot{
+   margin-left: 270px;
+   padding:10px 30px 10px 30px ;
+   font-weight: 600;
+   background-color: rgb(200, 69, 95);
+   color: white;
+   border: none;
+   cursor: pointer;
+   
+}
+.foot{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-right: 15px;
+    position: relative;
+    bottom: 40px;
+}
+.foot img{
+    height: 120px;
+}
